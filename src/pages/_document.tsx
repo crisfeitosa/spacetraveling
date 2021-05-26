@@ -1,7 +1,7 @@
 import Document, { Head, Html, Main, NextScript } from 'next/document';
 
 export default class MyDocument extends Document {
-  render() {
+  render(): JSX.Element {
     return (
       <Html lang="pt-BR">
         <Head>
@@ -17,7 +17,7 @@ export default class MyDocument extends Document {
           <script
             async
             defer
-            src="https://static.cdn.prismic.io/prismic.js?new=true&repo=spacetraveling2"
+            src="https://static.cdn.prismic.io/prismic.js?new=true&repo=spacetravelingbycris"
           />
         </body>
       </Html>
